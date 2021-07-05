@@ -12,6 +12,20 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uungnIBwygJAjrXlZ9aW1zfld9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Java" />
@@ -21,9 +35,24 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a6c1e46-288b-4116-a993-b98b8ea1902d" name="Default Changelist" comment="" />
+      <created>1625524454756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625524454756</updated>
+      <workItem from="1625524457576" duration="70000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1625524502603">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877@0.23.1440.877" timestamp="1625524502603" />
     <state x="114" y="84" key="new project wizard" timestamp="1625495324129">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
