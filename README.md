@@ -1,9 +1,8 @@
-### 剑指offer JAVA解 
-* https://github.com/xurui1995/Sword-pointing-to-offer
+### 剑指offer JAVA、golang、php、python实现
+
 * 对应的书籍为12年出版的剑指offer
 * 实现思路请参考书中讲解  
 * 欢迎提交bug和更优解
-* 下载文件 https://github.com/xurui1995/Sword-pointing-to-offer/tree/master/Pdf%E3%80%81Markdown
 ####  公共类
 BinaryTreeNode
 ```
@@ -506,7 +505,7 @@ public class No12 {
         }
     }
 }
-``` 
+```
 > 13. 给定单向链表的头指针和一个结点指针， 定义一个函数在O（1）时间删除该节点
 ```
 public class No13 {
@@ -672,7 +671,7 @@ public class No15_2 {
     }
 
 }
-``` 
+```
 > 16. 同第5题
 
 > 17. 输入两个递增排序的链表，合并这两个链表并使新链表中结点仍然是按照递增排序的。例如输入1->3->5->7和2->4->6->8，则合并之后的升序链表应该是1->2->3->4->5->6->7->8 。
