@@ -1,5 +1,3 @@
-
-//题目:赋值运算函数
 public class BinaryTreeNode {
     private int data;
     private BinaryTreeNode LchildNode;
@@ -33,6 +31,4 @@ public class BinaryTreeNode {
     public void setRchildNode(BinaryTreeNode rchildNode) {
         RchildNode = rchildNode;
     }
-
-
 }
