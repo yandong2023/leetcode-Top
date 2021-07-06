@@ -6,7 +6,7 @@
  * 单例模式（Singleton）的目的是为了保证在一个进程中，某个类有且仅有一个实例。
  */
 
-public class No02 {
+public class Singleton {
      public static void main(String[] args) {
          String instance = A.getInstance().say();
          System.out.println(instance);

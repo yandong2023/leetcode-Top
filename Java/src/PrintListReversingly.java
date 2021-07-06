@@ -1,8 +1,10 @@
 /**
- * 输入一个链表的头节点，从尾到头打印每个节点的值。
+ * 题目
+ * 输入一个链表的头结点，从尾到头反过来打印出每个结点的值 也就是链表的反转
+ * tips 如果我们打算修改输入的数据 最好衔问面试官是不是允许做修改
  */
 
-public class No05 {
+public class PrintListReversingly {
 
     public static void main(String[] args) {
         Node node1 = new Node("A");
@@ -48,6 +50,7 @@ public class No05 {
         head.setNext(null);
         return pre;
     }
+
 }
 
 class Node {

@@ -6,7 +6,7 @@
  * 一个缺点：此赋值从左到右进行，a=b=c等价于a=c，b不会被赋值；
  * 而如果是String的=运算，a,b都会被赋成c的值。
 */
-public class No01 {
+public class CMyString {
     public static class MyString{
         private String data;
         public MyString(String data) {
