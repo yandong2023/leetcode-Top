@@ -26,8 +26,8 @@ public class ReplaceBlank {
         String str = "We are happy";
         char[] charArray = str.toCharArray();
         int n = charArray.length;
-//        System.out.println(change(charArray));
-        System.out.println(replaceBlank(charArray,n));;
+        System.out.println(change(charArray));
+//        System.out.println(replaceBlank(charArray,n));;
     }
 
     private static String replaceBlank(char string[],int length){
@@ -61,7 +61,7 @@ public class ReplaceBlank {
             }
             --indexOfOriginal;
         }
-        return string.toString();
+        return new String(string);
 
     }
 
@@ -77,16 +77,20 @@ public class ReplaceBlank {
         if (count == 0) {
             return null;
         }
+        //新字符串的长度
         char[] temp = new char[n + 2 * count];
+        //两个指针 p1 p2 ,其中p1在老的字符串的末尾，p2在新的字符串的末尾 同时向左移动
         int j = n + 2 * count - 1;
         int i = n - 1;
         while (i >= 0) {
+            //当p1遇到空格时 在p2的前面依次插入 0 2 % (因为是倒序)，同时p2指向前移动三位，因为占3个字节
             if (charArray[i] == ' ') {
                 temp[j] = '0';
                 temp[j - 1] = '2';
                 temp[j - 2] = '%';
                 j = j - 3;
             } else {
+                //依次将老的字符串复制到新的字符串中
                 temp[j] = charArray[i];
                 j--;
             }
