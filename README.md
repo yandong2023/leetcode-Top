@@ -1,6 +1,5 @@
-### 剑指offer JAVA、golang、php、python实现
+### 热门、高频leetcode
 
-* 对应的书籍为12年出版的剑指offer
 * 实现思路请参考书中讲解  
 * 欢迎提交bug和更优解
 ####  公共类
