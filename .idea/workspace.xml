@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6c1e46-288b-4116-a993-b98b8ea1902d" name="Default Changelist" comment="" />
+    <list default="true" id="1a6c1e46-288b-4116-a993-b98b8ea1902d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/The-sword-pointing-to-offer-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leecodeTop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/BiTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/Java/BiTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/No06.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/Java/No06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/Java/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/PrintListReversingly.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/Java/PrintListReversingly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/Java/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/No06.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/No06.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,6 +53,9 @@
       <updated>1625524454756</updated>
       <workItem from="1625524457576" duration="70000" />
       <workItem from="1625536915506" duration="50000" />
+      <workItem from="1638083862896" duration="407000" />
+      <workItem from="1638698237088" duration="11000" />
+      <workItem from="1638744096530" duration="233000" />
     </task>
     <servers />
   </component>
@@ -50,13 +63,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1625524502603">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="375" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1638698238128">
+      <screen x="0" y="23" width="1393" height="877" />
     </state>
-    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877@0.23.1440.877" timestamp="1625524502603" />
-    <state x="114" y="84" key="new project wizard" timestamp="1625495324129">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="114" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1625495324129" />
+    <state x="375" y="294" key="com.intellij.ide.util.TipDialog/74.-1027.1680.1027/0.23.1393.877@0.23.1393.877" timestamp="1638698238128" />
   </component>
 </project>
