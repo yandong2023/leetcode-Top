@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6c1e46-288b-4116-a993-b98b8ea1902d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/max_sum_nums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/max_sum_nums.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/max_sum_nums.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,6 +54,8 @@
       <workItem from="1638698237088" duration="11000" />
       <workItem from="1638744096530" duration="233000" />
       <workItem from="1638744570880" duration="2667000" />
+      <workItem from="1638837967103" duration="252000" />
+      <workItem from="1639013295225" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="从今天开始每天一道到两道，开始刷题 热门大厂题集合">
       <created>1638744665547</created>
@@ -72,10 +75,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="从今天开始每天一道到两道，开始刷题 热门大厂题集合" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="161" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638749222865">
-      <screen x="0" y="23" width="1393" height="877" />
+    <state x="166" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638838065353">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="166" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1920.1177@0.23.1440.877" timestamp="1638838065353" />
     <state x="161" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.-1027.1680.1027/0.23.1393.877@0.23.1393.877" timestamp="1638749222865" />
+    <state x="569" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1638838070474">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="569" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877/1440.23.1920.1177@0.23.1440.877" timestamp="1638838070474" />
     <state x="246" y="61" key="CommitChangelistDialog2" timestamp="1638744665182">
       <screen x="0" y="23" width="1393" height="877" />
     </state>

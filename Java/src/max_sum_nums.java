@@ -36,12 +36,37 @@
 
 class Solution {
     public int maxSubArray(int[] nums) {
-        //思路遍历数组，当发现下一个数组加上之后总数减小时不增加元素，否则继续增加
+
         int max = nums[0];
         for(int i=1;i<nums.length;i++){
             nums[i] = Math.max(nums[i-1]+nums[i],nums[i]);
             max = Math.max(max,nums[i]);
         }
         return max;
+    }
+    public int maxSubArray(int[] nums) {
+        /**
+         * 首先sum是 和的意思， ans 是用来记录sum的最大值，因为sum会一直变化
+         * 从开始遍历， 负数肯定是不会产生增益的，
+         * 当sum < 0 时， 就已经没有再往后加的必要了，这个时候直接把下一个值拿过来赋值给sum
+         * 当sum > 0 时， 就可以对后面的数产生增益，所以给他加上
+         * 加完之后 比较一下sum和ans的大小， 取最大值
+         * 如此循环
+         */
+        int ans = nums[0];
+        //ans是最大值
+        int sum = nums[0];
+        for(int i=1; i<nums.length; i++){
+            if(sum>0){
+                sum += nums[i];
+            }else{
+                sum = nums[i];
+            }
+            ans = Math.max(sum,ans);
+
+        }
+        return ans;
+
+
     }
 }
