@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6c1e46-288b-4116-a993-b98b8ea1902d" name="Default Changelist" comment="" />
+    <list default="true" id="1a6c1e46-288b-4116-a993-b98b8ea1902d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Java/src/mergeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java/src" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,6 +55,7 @@
       <workItem from="1638744570880" duration="2667000" />
       <workItem from="1638837967103" duration="252000" />
       <workItem from="1639013295225" duration="636000" />
+      <workItem from="1639097538919" duration="1536000" />
     </task>
     <task id="LOCAL-00001" summary="从今天开始每天一道到两道，开始刷题 热门大厂题集合">
       <created>1638744665547</created>
@@ -67,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639014992899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="从今天开始每天一道到两道，开始刷题 热门大厂题集合">
+      <created>1639097546386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639097546386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,15 +98,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="569" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877/1440.23.1920.1177@0.23.1440.877" timestamp="1638838070474" />
-    <state x="1779" y="74" key="CommitChangelistDialog2" timestamp="1639014992434">
+    <state x="1779" y="74" key="CommitChangelistDialog2" timestamp="1639097546198">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state x="1779" y="74" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1639014992434" />
+    <state x="1779" y="74" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1639097546198" />
     <state x="246" y="61" key="CommitChangelistDialog2/74.-1027.1680.1027/0.23.1393.877@0.23.1393.877" timestamp="1638744665182" />
-    <state x="1848" y="247" key="Vcs.Push.Dialog.v2" timestamp="1639014994502">
+    <state x="1848" y="247" key="Vcs.Push.Dialog.v2" timestamp="1639097548442">
       <screen x="1440" y="23" width="1920" height="1177" />
     </state>
-    <state x="1848" y="247" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1639014994502" />
+    <state x="1848" y="247" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1639097548442" />
     <state x="296" y="190" key="Vcs.Push.Dialog.v2/74.-1027.1680.1027/0.23.1393.877@0.23.1393.877" timestamp="1638744668728" />
     <state x="375" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1638698238128">
       <screen x="0" y="23" width="1393" height="877" />
