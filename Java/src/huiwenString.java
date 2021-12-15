@@ -32,6 +32,7 @@
 class Solution {
     public boolean isPalindrome(String s) {
         //只保留字母和数字 将大写转为小写 有几种方法：双指针、栈、递归 这里用双指针实现
+        //当遍历到一半 一直不相等就直接false
         int left =0;
         int right = s.length()-1;
         while(left<right){
