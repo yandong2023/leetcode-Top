@@ -29,7 +29,7 @@
  * 来源：力扣（LeetCode）
  * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  */
-class Solution {
+class isPalindrome {
     public boolean isPalindrome(String s) {
         //只保留字母和数字 将大写转为小写 有几种方法：双指针、栈、递归 这里用双指针实现
         //当遍历到一半 一直不相等就直接false

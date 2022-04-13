@@ -47,7 +47,7 @@
  *
  */
 
-class Solution {
+class merge {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         //设置pos为合并后的下标 pos1为num1的下标，pos2为nums2的下标
         //遍历比较，如果num1[pos1]>num2[pos2]则num1左移，赋值给num1否则nums左移并赋值给num1

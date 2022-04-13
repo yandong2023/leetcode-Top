@@ -34,8 +34,8 @@
  * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  */
 
-class Solution {
-    public int maxSubArray(int[] nums) {
+class maxSubArray {
+    public int maxSubArray1(int[] nums) {
         //思路遍历数组
         // 1.假如全是负数，那就是找最大值即可，因为负数肯定越加越大。
         // 2.如果有正数，则肯定从正数开始计算和，不然前面有负值，和肯定变小了，所以从正数开始。
