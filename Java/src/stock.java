@@ -1,3 +1,8 @@
+import sun.applet.AppletResourceLoader;
+import sun.security.krb5.internal.APRep;
+
+import java.util.Arrays;
+
 /**
  * 121. 买卖股票的最佳时机
  * 给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。
@@ -31,7 +36,7 @@
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 class maxProfit1 {
-    public int maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
         if (prices==null || prices.length ==0){
             return 0;
         }
@@ -44,5 +49,11 @@ class maxProfit1 {
         }
         return max;
 
+    }
+
+    public static void main(String[] args) {
+        int[] prices ={12,4,4,5,6};
+        int i = maxProfit(prices);
+        System.out.println(i);
     }
 }
