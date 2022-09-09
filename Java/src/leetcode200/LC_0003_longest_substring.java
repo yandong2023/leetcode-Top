@@ -76,6 +76,31 @@ public class LC_0003_longest_substring {
 		}
 		return result;
 	}
+	public static String insertInside(String str,int leftIndex){
+		String left = str.substring(0,leftIndex+1);
+		String right = str.substring(leftIndex+1,str.length());
+		return left + "()" +right;
+
+	}
+	//生成指定数量的括号对 比如输出3 生成()()() 、(())()、()(())、(()())、((()))
+	public static void addParen(ArrayList<String> list,int leftRem,int rightRem,char[] str,int index){
+		if(leftRem<0 || rightRem<leftRem) return;
+		if(leftRem==0 && rightRem==0){
+			list.add(String.copyValueOf(str));
+		}else{
+			str[index]='(';//左括号
+			addParen(list,leftRem-1,rightRem,str,index+1);
+			str[index]=')';//右括号
+			addParen(list,leftRem,rightRem-1,str,index+1);
+		}
+	}
+	public static ArrayList<String> generateParens(int count){
+		char[] str = new char[count * 2];
+		ArrayList<String> list = new ArrayList<String>();
+		addParen(list,count,count,str,0);
+		return list;
+	}
+
 
 
 	public static void main(String[] args) {
@@ -84,8 +109,13 @@ public class LC_0003_longest_substring {
 
 //		int ints2 = lengthOfLongestSubstring(s1);
 //		System.out.println(ints2);
-		ArrayList<String> param = getParam("abc");
-		System.out.println(param);
+//		ArrayList<String> param = getParam("abc");
+//		System.out.println(param);
+
+//		String s2 = insertInside("()", 0);
+//		System.out.println(s2);
+		ArrayList<String> strings = generateParens(3);
+		System.out.println(strings);
 
 
 	}
