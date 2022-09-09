@@ -4,6 +4,7 @@ import class28.Problem_0019_RemoveNthNodeFromEndofList;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 public class LC_0002_add_two_numbers {
 
@@ -35,39 +36,18 @@ public class LC_0002_add_two_numbers {
 	 * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 	 * @return
 	 */
-	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//		//遍历两个链表 根据链表的长度判断和的位数
+//		//return List;
+//
+//	}
 
-	}
-
-    /**
-     * 思路：
-	 * 利用一个hashmap 来存储target-nums[i] 只要存在即找到了该值
-	 * @param nums
-     * @param target
-     * @return
-     */
-	public  static int[] twoSum2(int[] nums, int target) {
-		int[] res = {-1,-1};
-		HashMap<Integer, Integer> map = new HashMap<>();
-		for (int i=0;i<nums.length;i++){
-			if(map.containsKey(target-nums[i])){
-				res = new int[]{map.get(target - nums[i]),i };
-				return res;
-			}
-			map.put(nums[i],i);
-
-		}
-		return  res;
-
-	}
 
 	public static void main(String[] args) {
 		int[] nums = {1,3,4,5,5,6};
 		int target = 4;
-		int[] ints = twoSum(nums,target);
-		int[] ints2 = twoSum2(nums,target);
-		System.out.println(Arrays.toString(ints));
-		System.out.println(Arrays.toString(ints2));
+//		System.out.println(Arrays.toString(ints));
+//		System.out.println(Arrays.toString(ints2));
 
 	}
 
